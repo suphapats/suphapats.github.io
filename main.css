@@ -1,0 +1,78 @@
+.container { /*Edit bg*/
+    background-image: linear-gradient(to right, rgb(255, 255, 255,1), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1500217052183-bc01eee1a74e?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    min-height: 100vh; /* mean full page */
+    padding: 128px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /*crop*/
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding: 48px ;
+    }
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.content {
+    max-width: 500px;
+}
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover; /* Doc for objectfit : https://tutorials.skooldio.com/content/css-trick-object-fit */
+    box-shadow: 10px 10px 5px 0px; /* Doc for box shadow : https://www.w3schools.com/cssref/css3_pr_box-shadow.php*/
+}
+
+.name {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px){
+    .name {
+        font-size: 36px;
+    }
+}
+
+.job {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.contact {
+    margin-bottom: 48px;
+}
+
+.contact-item {
+    margin-bottom: 4px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    padding: 12px 24px; /*hv lr*/
+    text-decoration: none;
+}
+
+.contact-icon {
+    margin: 12px;
+    width: 16px;
+}
